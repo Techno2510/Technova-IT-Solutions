@@ -1,0 +1,362 @@
+/* ============================================================
+   TECHNOVA IT SOLUTIONS - RESPONSIVE STYLESHEET
+   ============================================================ */
+
+/* ---------- LARGE SCREENS (1200px and above) ---------- */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/* ---------- DESKTOP (992px to 1199px) ---------- */
+@media (max-width: 1199px) {
+    .hero h1 {
+        font-size: 2.8rem;
+    }
+    .section-title {
+        font-size: 2.2rem;
+    }
+}
+
+/* ---------- TABLET (768px to 991px) ---------- */
+@media (max-width: 991px) {
+    .navbar .nav-link {
+        padding: 8px 0 !important;
+    }
+    .navbar .nav-link::after {
+        display: none;
+    }
+    .navbar .btn-primary {
+        margin-top: 10px;
+    }
+
+    .hero {
+        padding: 50px 0 40px;
+        text-align: center;
+    }
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+    .hero p {
+        margin: 0 auto 25px;
+        max-width: 100%;
+    }
+    .hero .btn {
+        margin: 5px;
+    }
+    .hero-image {
+        margin-top: 30px;
+        max-width: 80%;
+    }
+
+    .about {
+        text-align: center;
+    }
+    .about-list {
+        display: inline-block;
+        text-align: left;
+    }
+
+    .emergency-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer .col-lg-3,
+    .footer .col-lg-4 {
+        margin-bottom: 30px;
+    }
+
+    .counter-section h2 {
+        font-size: 2.8rem;
+    }
+    .cta-section h2 {
+        font-size: 2rem;
+    }
+}
+
+/* ---------- MOBILE (576px to 767px) ---------- */
+@media (max-width: 767px) {
+    .top-bar {
+        font-size: 12px;
+        padding: 6px 0;
+    }
+    .top-bar .ms-4 {
+        margin-left: 12px !important;
+    }
+    .top-bar .social-icons a {
+        width: 28px;
+        height: 28px;
+        line-height: 28px;
+        font-size: 11px;
+        margin-left: 4px;
+    }
+
+    .hero {
+        padding: 40px 0 30px;
+    }
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+    .hero p {
+        font-size: 0.95rem;
+    }
+    .hero-tag {
+        font-size: 11px;
+        padding: 4px 14px;
+    }
+    .hero .btn-lg {
+        padding: 10px 24px;
+        font-size: 0.9rem;
+    }
+    .hero-image {
+        max-width: 100%;
+    }
+
+    .section-title {
+        font-size: 1.6rem;
+    }
+    .section-subtitle {
+        font-size: 12px;
+        padding: 4px 14px;
+    }
+
+    .service-card,
+    .feature-box,
+    .hardware-card {
+        padding: 25px 18px;
+    }
+    .service-card i,
+    .feature-box i {
+        font-size: 2rem;
+    }
+
+    .emergency-box h2 {
+        font-size: 1.1rem;
+    }
+    .emergency-box p {
+        font-size: 0.85rem;
+    }
+
+    .counter-section {
+        padding: 50px 0;
+    }
+    .counter-section h2 {
+        font-size: 2.2rem;
+    }
+
+    .footer {
+        padding: 40px 0 20px;
+        text-align: center;
+    }
+    .footer .social-links {
+        margin-bottom: 10px;
+    }
+    .footer .btn-primary {
+        display: inline-block;
+    }
+
+    .cta-section {
+        padding: 50px 0;
+    }
+    .cta-section h2 {
+        font-size: 1.6rem;
+    }
+    .cta-section p {
+        font-size: 0.95rem;
+    }
+
+    .contact-form {
+        padding: 25px;
+    }
+
+    .gallery-item img {
+        height: 220px;
+    }
+    .blog-card img {
+        height: 180px;
+    }
+    .portfolio-card img {
+        height: 180px;
+    }
+    .project-card img {
+        height: 180px;
+    }
+
+    .whatsapp {
+        width: 50px;
+        height: 50px;
+        font-size: 26px;
+        bottom: 20px;
+        right: 20px;
+    }
+    #topBtn {
+        width: 42px;
+        height: 42px;
+        font-size: 16px;
+        bottom: 80px;
+        right: 20px;
+    }
+
+    .page-banner {
+        padding: 50px 0 30px;
+        text-align: center;
+    }
+    .page-banner h1 {
+        font-size: 1.8rem;
+    }
+
+    .privacy-content h2 {
+        font-size: 1.3rem;
+    }
+    .contact-box {
+        padding: 18px 20px;
+    }
+}
+
+/* ---------- SMALL MOBILE (below 576px) ---------- */
+@media (max-width: 575px) {
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+    .hero .btn {
+        display: block;
+        width: 100%;
+        margin: 8px 0 !important;
+    }
+    .hero .btn-outline-light {
+        margin-left: 0 !important;
+    }
+
+    .section-title {
+        font-size: 1.4rem;
+    }
+    .counter-section h2 {
+        font-size: 1.8rem;
+    }
+
+    .service-card,
+    .feature-box,
+    .hardware-card,
+    .industry-box,
+    .testimonial-card {
+        padding: 20px 15px;
+    }
+
+    .footer h3 {
+        font-size: 1.1rem;
+    }
+    .footer h5 {
+        font-size: 1rem;
+    }
+
+    .gallery-item img {
+        height: 180px;
+    }
+    .blog-card img {
+        height: 160px;
+    }
+    .blog-card .blog-content {
+        padding: 18px;
+    }
+    .portfolio-card img {
+        height: 160px;
+    }
+
+    .cta-section .btn-lg {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    .emergency-bar h3 {
+        font-size: 1.1rem;
+    }
+    .emergency-bar .btn-danger {
+        padding: 8px 20px;
+        font-size: 0.9rem;
+    }
+
+    .contact-form {
+        padding: 18px;
+    }
+    .contact-form .form-control {
+        padding: 10px 12px;
+        font-size: 0.9rem;
+    }
+
+    .newsletter-section .input-group {
+        flex-direction: column;
+    }
+    .newsletter-section .input-group .form-control {
+        border-radius: 8px !important;
+        margin-bottom: 10px;
+    }
+    .newsletter-section .input-group .btn {
+        border-radius: 8px !important;
+        width: 100%;
+    }
+
+    .faq-section .accordion-button {
+        font-size: 0.9rem;
+        padding: 14px 18px;
+    }
+    .faq-section .accordion-body {
+        font-size: 0.9rem;
+        padding: 16px 18px;
+    }
+}
+
+/* ---------- PRINT STYLES ---------- */
+@media print {
+    .top-bar,
+    .navbar,
+    .whatsapp,
+    #topBtn,
+    .emergency-bar,
+    .cta-section,
+    .emergency,
+    .footer .social-links,
+    .footer .btn-primary,
+    .contact-cta,
+    .faq-cta,
+    .blog-cta {
+        display: none !important;
+    }
+
+    .hero {
+        background: var(--white) !important;
+        color: var(--dark) !important;
+        padding: 30px 0 !important;
+    }
+    .hero h1,
+    .hero p {
+        color: var(--dark) !important;
+    }
+    .hero-tag {
+        color: var(--primary) !important;
+        background: transparent !important;
+    }
+
+    .section-title {
+        color: var(--dark) !important;
+    }
+
+    .footer {
+        background: var(--white) !important;
+        color: var(--dark) !important;
+    }
+    .footer h3,
+    .footer h5 {
+        color: var(--dark) !important;
+    }
+    .footer ul li a {
+        color: var(--dark) !important;
+    }
+
+    .service-card,
+    .feature-box {
+        box-shadow: none !important;
+        border: 1px solid #ddd !important;
+    }
+}
