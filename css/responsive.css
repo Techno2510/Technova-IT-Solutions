@@ -80,17 +80,24 @@
 @media (max-width: 767px) {
     .top-bar {
         font-size: 12px;
-        padding: 6px 0;
+        padding: 8px 0;
+    }
+   
+    .top-bar .text-center span,
+    .top-bar .text-start span {
+        display: block;
+        margin: 4px 0;
     }
     .top-bar .ms-4 {
-        margin-left: 12px !important;
+        margin-left: 0 !important;
     }
     .top-bar .social-icons a {
+        display: inline-block;
         width: 28px;
         height: 28px;
         line-height: 28px;
         font-size: 11px;
-        margin-left: 4px;
+        margin: 0 4px;
     }
 
     .hero {
@@ -171,17 +178,14 @@
         padding: 25px;
     }
 
-    .gallery-item img {
-        height: 220px;
-    }
-    .blog-card img {
-        height: 180px;
-    }
-    .portfolio-card img {
-        height: 180px;
-    }
+ 
+    .gallery-item img,
+    .blog-card img,
+    .portfolio-card img,
     .project-card img {
         height: 180px;
+        object-fit: cover;
+        width: 100%;
     }
 
     .whatsapp {
@@ -251,17 +255,16 @@
         font-size: 1rem;
     }
 
-    .gallery-item img {
-        height: 180px;
-    }
-    .blog-card img {
+ 
+    .gallery-item img,
+    .blog-card img,
+    .portfolio-card img {
         height: 160px;
+        object-fit: cover;
+        width: 100%;
     }
     .blog-card .blog-content {
         padding: 18px;
-    }
-    .portfolio-card img {
-        height: 160px;
     }
 
     .cta-section .btn-lg {
