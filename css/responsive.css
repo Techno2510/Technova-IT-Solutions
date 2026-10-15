@@ -345,16 +345,17 @@
         color: var(--dark) !important;
     }
 
+    /* Keep the corporate footer dark and readable on mobile too. */
     .footer {
-        background: var(--white) !important;
-        color: var(--dark) !important;
+        background: #07111f;
+        color: #b8c4d4;
     }
     .footer h3,
     .footer h5 {
-        color: var(--dark) !important;
+        color: #ffffff;
     }
     .footer ul li a {
-        color: var(--dark) !important;
+        color: #aebccc;
     }
 
     .service-card,
@@ -362,4 +363,15 @@
         box-shadow: none !important;
         border: 1px solid #ddd !important;
     }
+}
+
+
+/* Footer contrast safeguard for mobile layouts */
+@media (max-width: 767px) {
+  .site-footer { background: #07111f !important; color: #b8c4d4 !important; text-align: left; }
+  .site-footer h3, .site-footer h5 { color: #ffffff !important; }
+  .site-footer .footer-about-text, .site-footer .footer-contact p { color: #aebccc !important; }
+  .site-footer .footer-links a, .site-footer .footer-contact a, .site-footer .footer-legal a { color: #aebccc !important; }
+  .site-footer .footer-bottom { flex-direction: column; align-items: flex-start; margin-top: 0; }
+  .site-footer .footer-legal { justify-content: flex-start; }
 }
