@@ -206,3 +206,11 @@ function isInViewport(element, offset) {
         rect.right <= (window.innerWidth || document.documentElement.clientWidth)
     );
 }
+
+// Keep the footer copyright year current on every page.
+document.addEventListener('DOMContentLoaded', function () {
+  var currentYear = String(new Date().getFullYear());
+  document.querySelectorAll('.footer-current-year').forEach(function (yearNode) {
+    yearNode.textContent = currentYear;
+  });
+});
